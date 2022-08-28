@@ -13,12 +13,17 @@
 </head>
 
 
-<body>
+<body class="is-preload">
 <!--Top Navbar Section-->
   <div>
     <nav class="navbar">
       <div class="navbar_container">
-        <a href="index.html" id="nav_home">EUGENEKTKY</a>   
+        <a href="index.html" id="nav_home">EUGENEKTKY</a>
+        <div class="navbar_toggle"id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>   
           <ul class="navbar_menu">
             <li class="navbar_item">
               <a href="index.html" class="navbar_links"id="nav_home">About me</a>
@@ -38,88 +43,97 @@
   </div>
 <!--End of Top Navbar Section-->
 
-<div class="hero_main">
-  <nav class="hero_icon">
-    <div class="hero_icon_container">
-      <ul class="hero_item_links">
-        <li class="hero_icon">
-          <a href="https://twitter.com/kylerfunk0" class="hero_link" id="hero_twitter"><img ref="icon" src="images/twitter-3_icon-icons.com_50735.ico"></a>
-        </li>
-        <li class="hero_icon">
-          <a href="https://github.com/Eugenektky" class="hero_link" id="hero_github"><img ref="icon" src="images/github_icon_128500.ico"></a>
-        </li>
-        <li class="hero_icon">
-          <a href="https://www.linkedin.com/in/eugenekylertan/" class="hero_link" id="hero_linkedin"><img ref="icon" src="images/linkedin_in_logo_icon_145103.ico"></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="hero_title" id="wrapper">
-    HELLO I'M EUGENE
-  </div>
-  <div class="hero_text">
-    <p class="hero_quote"> "Take a leap of faith" - Søren Kierkegaard </p>
-  </div>
-  <div class="hero_view_more">
-    View more
-  </div>
-  <button onclick="viewMore()" id="viewMore_hero"><img ref="icon" src="images/1492790985-3arrow-down_84192.ico"></button>
-</div>
+<!--Hero Section-->
+  <div class="hero_main">
+    <nav class="hero_icon">
+      <div class="hero_icon_container">
+        <ul class="hero_item_links">
+          <li class="hero_icon">
+            <a href="https://twitter.com/kylerfunk0" class="hero_link" id="hero_twitter"><img ref="icon" src="images/twitter-3_icon-icons.com_50735.ico"></a>
+          </li>
+          <li class="hero_icon">
+            <a href="https://github.com/Eugenektky" class="hero_link" id="hero_github"><img ref="icon" src="images/github_icon_128500.ico"></a>
+          </li>
+          <li class="hero_icon">
+            <a href="https://www.linkedin.com/in/eugenekylertan/" class="hero_link" id="hero_linkedin"><img ref="icon" src="images/linkedin_in_logo_icon_145103.ico"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<div class="about_me_overall">
-  <div class="about_me_title">
-    ABOUT ME
-  </div>
-  <div class="about_me_main">
-    Thanks for visiting my website!
-  </div>
-  <div class="about_me_main">
-    Studied in National University of Singapore, majored in Mechanical Engineer. 
-  </div>
-  <div class="about_me_main">
-    My goal in the near future is to become a full-stack software engineer that have designed several creative projects.
-    You may take a look at them below!  
-  </div>
-  <div>
-  <button onclick="viewMore()" id="viewMore_about"><img ref="icon" src="images/1492790985-3arrow-down_84192.ico"></button>
-  </div>
-</div>
-<div class="main_proj">
-  <div class="main_proj_title">
-    Featured projects
-  </div>
-  <div class="main_proj_1st">
-    <div class="main_proj_name1">
-      ICE BREAKER GAME BOY
+    <div class="hero_title" id="wrapper">
+      HELLO I'M EUGENE
     </div>
-    <iframe class="main_proj_video" src="https://www.youtube.com/embed/O1Rrm0DNjVk" title="ME3241 gaming sneakpeek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <div class="main_proj_1_container">
-      <ul class="main_proj_1_items">
-        <li class="main_proj_1_icon">
-          GAME
-        </li>        
-        <li class="main_proj_1_icon">
-          C PROGRAMMING
-        </li>
-        <li class="main_proj_1_icon">
-          FRONT-END
-        </li>        
-        <li class="main_proj_1_icon">
-          BACK-END
-        </li>
-      </ul>
-    </div>
-    <div class="main_proj_1_summary">
-      Welcome to Ice breaker! A simple 2D game where players 
-      have to catch ice-cream that are falling from the top using the platform at the base!
-      For every ice-cream you fail to catch, you lose a life. 
-      You will move on to the next level once you catch 7 ice-creams!
-    </div>
-  </div>
-</div>
 
+    <div class="hero_text">
+      <p class="hero_quote"> "Take a leap of faith" - Søren Kierkegaard </p>
+    </div>
 
+    <div class="hero_view_more">
+      View more
+    </div>
+    <button onclick="viewMore()" id="viewMore_hero"><img ref="icon" src="images/1492790985-3arrow-down_84192.ico"></button>
+  </div>
+<!--End of Hero Section-->
+
+<!--Intro Section-->
+  <div class="about_me_overall">
+    <div class="about_me_title">
+      ABOUT ME
+    </div>
+    <div class="about_me_main">
+      Thanks for visiting my website!
+    </div>
+    <div class="about_me_main">
+      Studied in National University of Singapore, majored in Mechanical Engineer. 
+    </div>
+    <div class="about_me_main">
+      My goal in the near future is to become a full-stack software engineer that have designed several creative projects.
+      You may take a look at them below!  
+    </div>
+    <div>
+    <button onclick="viewMore()" id="viewMore_about"><img ref="icon" src="images/1492790985-3arrow-down_84192.ico"></button>
+    </div>
+  </div>
+<!--End of Intro Section-->
+
+<!--Project Section-->
+  <div class="main_proj">
+    <div class="main_proj_title">
+      Featured projects
+    </div>
+    <div class="main_proj_1st">
+      <div class="main_proj_name1">
+        ICE BREAKER GAME BOY
+      </div>
+      <iframe class="main_proj_video" src="https://www.youtube.com/embed/O1Rrm0DNjVk" title="ME3241 gaming sneakpeek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <div class="main_proj_1_container">
+        <ul class="main_proj_1_items">
+          <li class="main_proj_1_icon">
+            GAME
+          </li>        
+          <li class="main_proj_1_icon">
+            C PROGRAMMING
+          </li>
+          <li class="main_proj_1_icon">
+            FRONT-END
+          </li>        
+          <li class="main_proj_1_icon">
+            BACK-END
+          </li>
+        </ul>
+      </div>
+      <div class="main_proj_1_summary">
+        Welcome to Ice breaker! A simple 2D game where players 
+        have to catch ice-cream that are falling from the top using the platform at the base!
+        For every ice-cream you fail to catch, you lose a life. 
+        You will move on to the next level once you catch 7 ice-creams!
+      </div>
+    </div>
+  </div>
+<!--End of project Section-->
+<script src="index.js"></script>
 </body>
 
 </html>
